@@ -1,0 +1,66 @@
+body {
+    background-image: url('./assets/login.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  }
+  
+  .login-form {
+    background-color: #ffffff; /* Completely opaque white */
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Adjust width as needed */
+    text-align: center;
+    margin-right: 150px;
+  }
+  
+  .login-form h2 {
+    color: #0a4c86; /* Dark blue color for the title */
+    margin-bottom: 20px;
+    font-size: 59px;
+    margin-top: -10px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #0a4c86; /* Dark blue border */
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white; /* Set background color to white */
+    color: black; /* Set text color to black */
+  }
+  
+  .login-form input::placeholder {
+    color: #999; /* Light grey placeholder */
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: #0a4c86; /* Dark blue border on focus */
+  }
+  
+  .login-form button {
+    width: 20%;
+    background-color: #0a4c86; /* Dark blue background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    text-align: center; /* Center text horizontally */
+    padding: 5px 0; /* Adjust vertical padding */
+    font-weight: bold;
+  }
+  
+  .login-form button:hover {
+    background-color: #002244; /* Slightly darker blue on hover */
+  }
